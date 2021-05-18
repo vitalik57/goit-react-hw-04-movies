@@ -25,16 +25,6 @@ class Cast extends Component {
     console.log(cast);
     return (
       <>
-        {/* <h3>hell</h3>
-        <ul>
-          <li />
-          <img
-            src={`https://image.tmdb.org/t/p/w300${cast.map(profile_path => profile_path.profile_path)}`}
-            alt={`Photo ${cast.name}: this actor`}
-          />
-          <p>{cast.map(name => name.name)}</p>
-          <p>{cast.map(character => character.character)}</p>
-        </ul> */}
         <ul>
           {cast.map(actor => {
             return (

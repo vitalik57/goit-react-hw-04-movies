@@ -2,10 +2,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Homepage from "./views/Homepage";
-import Cast from "./views/movies/Cast";
 import MovieDetailsPage from "./views/movies/MovieDetailsPage";
 import MoviesPage from "./views/movies/MoviesPage";
-import Revies from "./views/movies/Revies";
 import NotFound from "./views/NotFound";
 
 function App() {
