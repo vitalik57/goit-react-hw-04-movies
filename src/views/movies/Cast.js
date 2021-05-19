@@ -29,7 +29,7 @@ class Cast extends Component {
           {cast.map(actor => {
             return (
               <li key={actor.id}>
-                <img src={`https://image.tmdb.org/t/p/w300${actor.profile_path}`} alt={`Photo ${actor.name}: this actor`} />
+                <img src={`https://image.tmdb.org/t/p/w300${actor.profile_path}`} alt={` ${actor.name}: this actor`} />
 
                 <p>{actor.name}</p>
                 <p>{actor.character}</p>
