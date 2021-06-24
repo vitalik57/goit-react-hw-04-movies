@@ -8,7 +8,6 @@ class Homepage extends Component {
   };
   componentDidMount() {
     axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=b42fcc4cb047a9aa884c69051a0d1c53`).then(response => {
-      console.log(response);
       this.setState({
         films: response.data.results
       });
@@ -16,8 +15,6 @@ class Homepage extends Component {
   }
 
   render() {
-    console.log(this.state.films);
-    console.log(this.props.match);
     return (
       <>
         <ul>

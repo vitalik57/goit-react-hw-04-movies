@@ -22,7 +22,6 @@ class MovieDetailsPage extends Component {
       films: data,
       form: this.props.location.state
     });
-    console.log(this.props.location);
   }
   onGobake = () => {
     if (this.state.form?.search) {
