@@ -11,6 +11,7 @@ class MoviesPage extends Component {
   };
   componentDidMount() {
     const query = new URLSearchParams(this.props.location.search);
+    console.log(query.get(`query`));
     if (query.get(`query`)) {
       this.onChangeQuery(query.get(`query`));
     }

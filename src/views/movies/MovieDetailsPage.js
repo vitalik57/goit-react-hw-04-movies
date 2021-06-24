@@ -37,7 +37,7 @@ class MovieDetailsPage extends Component {
 
   render() {
     const { films } = this.state;
-    console.log(films);
+    console.log(this.state.form);
     return (
       <>
         <button type="button" onClick={this.onGobake}>
